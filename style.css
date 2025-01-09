@@ -1,0 +1,60 @@
+/* إعدادات عامة */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+}
+
+/* تصميم الهيدر */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* تصميم الفورم */
+form {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* تصميم الفوتر */
+footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
